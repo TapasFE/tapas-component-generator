@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+button {
+  display: inline-block;
+  height: 40px;
+  max-width: 400px;
+  padding: 0 15px;
+  font-size: 16px;
+  line-height: 24px;
+  border: 0;
+  color: #fff;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  overflow: hidden;
+  border-radius: 2px;
+  transition: all .45s cubic-bezier(.23,1,.32,1) 0ms;
+  background-color: #00bcd4;
+  transform: translateZ(0);
+}
+
+button:active {
+  background-color: rgba(0,188,212,.75);
+  transform: scale(.95);
+  transition: scale .5s linear;
+}
+
+.lump {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+}
